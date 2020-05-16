@@ -28,8 +28,37 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+    font-size: 62.5%;
+}
+.container nav a{
+    box-sizing: border-box;
+    width: 90%;
+    margin:5%;
+    padding:1%;
+  }
+  
+  .container nav a  {
+    margin: 0 10px;
+    padding: 10px;
+    display: flex row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-size: 1rem;
+    font-family: Roboto;
+    color: black;
+  }
+  .freeway{ 
+      width: 100%;
+      padding: 5% 0 5% 0;  
+  }
 body {
 	line-height: 1;
+}
+p{
+    font-family: rubik;
+    font-size: 1rem;
 }
 ol, ul {
 	list-style: none;
@@ -57,7 +86,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -67,7 +96,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -85,32 +114,90 @@ p {
     padding-bottom: 20px;  
 }
 
+.middle-content .boxes  {
+    display: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ .boxes {
+    width: 80%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:3%;
+  
+}
+
+.box1{
+    background-color: teal;
+    padding: 5%;
+    margin:3%;
+}
+
+.box2{
+    background-color: gold;
+    padding: 5%;
+    margin:3%;
+}
+
+.box3{
+    background-color: cadetblue;
+    padding: 5%;
+    margin:3%;
+
+}
+
+.box4{
+    background-color: coral;
+    padding: 5%;
+    margin:3%;
+}
+
+.box5{
+    background-color: crimson;
+    padding: 5%;
+    margin:3%;
+}
+
+.box6{
+    background-color: forestgreen;
+    padding: 5%;
+    margin:3%;
+}
+
+.box7{
+    background-color: darkorchid;
+    padding: 5%;
+    margin:3%;
+}
+
+.box8{
+    background-color: hotpink;
+    padding: 5%;
+    margin:3%;
+}
+
+.box9{
+    background-color: indigo;
+    padding: 5%;
+    margin:3%;
+}
+
+.box10{
+    background-color: dodgerblue;
+    padding: 5%;
+    margin:3%;
+}
 .middle-content {
-    margin-bottom: 20px;
+    padding: 100px 2%;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .bottom-content {
     display: flex;
@@ -138,9 +225,96 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
-
-footer nav a {
     color: white;
-    text-decoration: none;
 }
+ 
+      
+        }       
+ @media(max-width: 500px){
+     .container nav a{
+                width: 50%;
+                padding: 5%;
+                }
+            .container nav a  {
+                    margin: 0 10px;
+                    padding: 10px;
+                    display: flex column;
+                    align-content: center;
+                    text-decoration: none;
+                    margin-bottom: 5%;
+                    font-size: 1rem;
+                    font-family: Roboto;
+                    color: black;
+                    background-color: grey;
+                    border-radius: 10%;
+                }    
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+    }
+    }

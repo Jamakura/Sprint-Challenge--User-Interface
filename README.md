@@ -50,7 +50,7 @@ Align-items:center works on the cross axis.
 
 Git allows developers to copy the code repository to work on it so many programers can work on the same code and then merge it to the main code easily and effectively. It also makes version control easy.
 
-5. Define mobile-first design in your own words. Mobile first design is designing web pages for mobile devices as the primary focus, then the pc is added. +
+5. Define mobile-first design in your own words. Mobile first design is designing web pages for mobile devices as the primary focus, then the pc is added. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
